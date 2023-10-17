@@ -1,8 +1,8 @@
 /**
  * Search function
  */
-import { Command } from "../functions/Command";
-import { validFiles, searchMap } from "../functions/mockedJson";
+import { Command } from "./Command";
+import { validFiles, searchMap } from "./mockedJson";
 
 /**
  * Search function

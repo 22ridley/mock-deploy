@@ -1,12 +1,12 @@
-import { Command } from "../functions/Command";
-import { filepathMap } from "../functions/mockedJson";
+import { Command } from "./Command";
+import { filepathMap } from "./mockedJson";
 
 /**
- * View function 
+ * View function
  * @param filepath string containing the filepath
  * @param commandString string containing the whole command given by the user
- * @returns a Command with the command string, a 2D array of strings if the view 
- * attempt is successful, and a message indicating view success or an error. 
+ * @returns a Command with the command string, a 2D array of strings if the view
+ * attempt is successful, and a message indicating view success or an error.
  */
 export function view(filepath: string, commandString: string) {
   let result = filepathMap.get(filepath);

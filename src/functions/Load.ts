@@ -1,6 +1,6 @@
 // Note this is a .ts file, not .tsx. It's TypeScript, but not React.
 import { Dispatch, SetStateAction, useState } from "react";
-import { validFiles } from "../functions/mockedJson";
+import { validFiles } from "./mockedJson";
 
 /**
  * Load function which attempts to load a file from the mocked data and sets
